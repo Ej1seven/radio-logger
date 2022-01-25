@@ -11,6 +11,7 @@ app.listen(port, () => {
 });
 
 // *** GET Routes - display pages ***
+// Root Route
 app.get('/', function (req, res) {
   res.render('pages/index');
 });
